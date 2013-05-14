@@ -16,3 +16,13 @@ or
 ```
   php yii2/yii/yiic.php app/create path/to/appname
 ```
+
+## Deployment
+
+webserver document_root is www/
+modify www/index.php on line ```$frameworkPath = 'yii2/yii';``` as framework absolute or relative(www) path.
+
+if your php php5.4.x then test run used
+```
+php -S localhost:88 -t www/
+```
