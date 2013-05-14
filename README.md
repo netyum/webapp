@@ -12,3 +12,7 @@ webapp template for yii2.0
 ```
   yii2/yii/yiic app/create path/to/appname 
 ```
+or
+```
+  php yii2/yii/yiic.php app/create path/to/appname
+```
